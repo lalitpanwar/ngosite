@@ -47,7 +47,7 @@ const navLinks = menu || [];
 
     {/* Brand Text */}
 <div className="flex flex-col justify-center">
-  <h2 className="text-lg md:text-xl font-heading font-black tracking-tighter text-slate-900 uppercase leading-none drop-shadow-[0_1px_1px_rgba(0,0,0,0.1)]">
+  <h2 className="text-sm md:text-xl font-heading font-black tracking-tighter text-slate-900 uppercase leading-none drop-shadow-[0_1px_1px_rgba(0,0,0,0.1)]">
     DIGITAL <span className="text-primary italic">DUNIYAA</span>
   </h2>
   
