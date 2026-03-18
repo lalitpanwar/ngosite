@@ -58,7 +58,7 @@ export default function MeetOurTeam() {
           </div>
 
           {/* 2. DIRECTORS (Leadership) */}
-          <div className="grid grid-cols-2 md:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {directorsData.map((member, i) => (
               <div key={i} className="flex flex-col items-center text-center p-10 bg-white border border-slate-100 rounded-[2rem] hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 group">
                 
