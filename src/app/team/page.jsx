@@ -6,24 +6,25 @@ import { FaLinkedinIn } from "react-icons/fa6";
 export default function TeamPage() {
   const trustee = {
     name: "Shri Amrish Chandra Maurya",
-    role: "अध्यक्ष एवं मुख्य सलाहकार",
+    role: "मुख्य सलाहकार",
     img: "/images/team/amrish-chandra.jpg",
     bio: "मेरा सपना है कि काशी के हर बच्चे के हाथ में एक किताब हो। हमारा लक्ष्य केवल साक्षरता प्रदान करना नहीं, बल्कि उन्हें एक बेहतर इंसान और कल का सशक्त नेतृत्व बनाने के लिए तैयार करना है।"
   };
 
   const directors = [
-    {
-      name: "Sir Devendra Maurya",
-      role: "संस्थापक एवं मुख्य कार्यकारी अधिकारी",
-      img: "/images/team/devendra-maurya-director.jpg",
-      bio: "Expert in project management and driving sustainable social impact at the grassroots level."
-    },
-    {
+        {
       name: "Mahima Maurya",
-      role: " सह-संस्थापक एवं निदेशक",
+      role: "संस्थापक एवं मुख्य कार्यकारी अधिकारी",
       img: "/images/team/mahima-maurya-director.jpg",
       bio: "A visionary leader focused on bringing innovative educational initiatives to life."
     }
+    {
+      name: "Sir Devendra Maurya",
+      role: "सह-संस्थापक एवं निदेशक",
+      img: "/images/team/devendra-maurya-director.jpg",
+      bio: "Expert in project management and driving sustainable social impact at the grassroots level."
+    },
+
   ];
 
   const members = [
@@ -43,7 +44,7 @@ export default function TeamPage() {
       {/* 1. Founding Trustee Section */}
       <section className="py-24">
         <Container>
-          <SectionHeader badge="The Visionary" title="President &" italicPart="Chief Advisor" />
+          <SectionHeader badge="The Visionary" title="The" italicPart="Chief Advisor" />
           
           <div className="max-w-4xl mx-auto mt-20 p-10 md:p-14 bg-slate-900 rounded-[3.5rem] text-white flex flex-col md:flex-row items-center gap-12 shadow-2xl relative overflow-hidden group">
               {/* Background Glow */}

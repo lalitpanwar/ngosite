@@ -6,15 +6,16 @@ import { FaUserGroup, FaQuoteLeft } from "react-icons/fa6";
 export default function MeetOurTeam() {
   const trusteeData = {
     name: "Shri Amrish Chandra Maurya",
-    role: "अध्यक्ष एवं मुख्य सलाहकार",
+    role: "मुख्य सलाहकार",
     // vision: "My dream is to see a book in the hands of every child in Varanasi. Our goal is not just to provide literacy, but to empower them to become better human beings and leaders of tomorrow.",
      vision: "मेरा सपना है कि काशी के हर बच्चे के हाथ में एक किताब हो। हमारा लक्ष्य केवल साक्षरता प्रदान करना नहीं, बल्कि उन्हें एक बेहतर इंसान और कल का सशक्त नेतृत्व बनाने के लिए तैयार करना है।",
     img: "/images/team/amrish-chandra.jpg"
   };
 
   const directorsData = [
-    { name: "Sir. Devendra Maurya", role: "संस्थापक एवं मुख्य कार्यकारी अधिकारी", img: "/images/team/devendra-maurya-director.jpg" },
-    { name: "Mahima Maurya", role: "सह-संस्थापक एवं निदेशक", img: "/images/team/mahima-maurya-director.jpg" },
+
+    { name: "Mahima Maurya", role: "संस्थापक एवं मुख्य कार्यकारी अधिकारी", img: "/images/team/mahima-maurya-director.jpg" },
+    { name: "Sir Devendra Maurya", role: "सह-संस्थापक एवं निदेशक", img: "/images/team/devendra-maurya-director.jpg" },
   ];
 
   return (
