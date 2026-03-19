@@ -17,7 +17,7 @@ export default function TeamPage() {
       role: "संस्थापक एवं मुख्य कार्यकारी अधिकारी",
       img: "/images/team/mahima-maurya-director.jpg",
       bio: "A visionary leader focused on bringing innovative educational initiatives to life."
-    }
+    },
     {
       name: "Sir Devendra Maurya",
       role: "सह-संस्थापक एवं निदेशक",
