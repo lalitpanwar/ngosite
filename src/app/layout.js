@@ -19,6 +19,11 @@ export const metadata = {
   title: "Digital Duniyaa Foundation",
   description: "Varanashi ke har bache ko mile shiksha aur har pariwar ko mile poshan.",
   viewport: "width=device-width, initial-scale=1, maximum-scale=5", // Accessibility for mobile
+  alternates: {
+    types: {
+      'image/webp': '/hero.webp', // Hero image ko preload
+    },
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -29,10 +29,11 @@ export default function Hero({
       <div className="absolute inset-0 z-0 overflow-hidden">
         <Image
           src={bgImage}
-          alt="Hero Background"
+          alt="Digital Duniyaa Foundation Varanashi"
           fill
-          priority // Isse image turant load hoti hai bina blur hue
-          quality={100}
+          priority 
+          fetchPriority="high"
+          quality={85}
           sizes="100vw"
           className="object-cover object-center transition-transform duration-1000"
         />
