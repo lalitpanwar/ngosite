@@ -25,7 +25,8 @@ const navLinks = menu || [];
   <button 
     className="lg:hidden text-2xl text-slate-700 p-1 cursor-pointer"
     onClick={() => setIsOpen(true)}
-  >
+aria-label="Open Menu"
+>
     <FaBarsStaggered />
   </button>
   

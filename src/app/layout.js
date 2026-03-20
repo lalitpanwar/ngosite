@@ -20,6 +20,7 @@ export const metadata = {
   description: "Varanashi ke har bache ko mile shiksha aur har pariwar ko mile poshan.",
   viewport: "width=device-width, initial-scale=1, maximum-scale=5", // Accessibility for mobile
   alternates: {
+canonical: 'https://www.digitalduniyaa.org',
     types: {
       'image/webp': '/hero.webp', // Hero image ko preload
     },
@@ -29,6 +30,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${sora.variable} ${roboto.variable}`}>
+      <head>
+        <link rel="preconnect" href="https://digitalduniyaa.org" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+      </head>
       <body className="font-sans antialiased">
         {/* SmoothScroll se wrap karein */}
         <SmoothScroll>
