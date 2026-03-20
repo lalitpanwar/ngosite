@@ -32,7 +32,7 @@ const navLinks = menu || [];
   {/* Logo + Text Container */}
   <Link href="/" className="flex items-center gap-2 group">
     {/* Logo Icon */}
-    <div className="relative h-12 w-12 md:h-18 md:w-18 flex-shrink-0 
+    <div className="relative h-12 w-12 md:h-18 md:w-18 shrink-0
                 filter drop-shadow-[0_4px_6px_rgba(0,93,80,0.2)] 
                 hover:drop-shadow-[0_8px_12px_rgba(0,93,80,0.3)] 
                 transition-all duration-3000">
@@ -47,14 +47,14 @@ const navLinks = menu || [];
 
     {/* Brand Text */}
 <div className="flex flex-col justify-center">
-  <h2 className="text-sm md:text-xl font-heading font-black tracking-tighter text-slate-900 uppercase leading-none drop-shadow-[0_1px_1px_rgba(0,0,0,0.1)]">
+  <h2 className="text-xs md:text-xl font-heading font-black tracking-tighter text-slate-900 uppercase leading-none drop-shadow-[0_1px_1px_rgba(0,0,0,0.1)]">
     DIGITAL <span className="text-primary italic">DUNIYAA</span>
   </h2>
   
   {/* Foundation with Hyphens - Balanced Center */}
   <div className="flex items-center justify-center gap-1 mt-1">
     <span className="h-[1px] w-2 bg-slate-300"></span> {/* Left Hyphen */}
-    <span className="text-[8px] md:text-[9px] font-bold text-slate-500 tracking-[0.3em] uppercase block pl-[0.3em]">
+    <span className="text-[7px] md:text-[9px] font-bold text-slate-500 tracking-[0.3em] uppercase block pl-[0.3em]">
       Foundation
     </span>
     <span className="h-[1px] w-2 bg-slate-300"></span> {/* Right Hyphen */}

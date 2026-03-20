@@ -12,12 +12,13 @@ const sora = Sora({
 const roboto = Roboto({
   subsets: ["latin"],
   variable: "--font-roboto",
-  weight: ["100", "300", "400", "500", "600", "700"],
+  weight: ["400", "500", "700"],
 });
 
 export const metadata = {
   title: "Digital Duniyaa Foundation",
-  description: "Nandgram ke har bache ko mile shiksha aur har pariwar ko mile poshan.",
+  description: "Varanashi ke har bache ko mile shiksha aur har pariwar ko mile poshan.",
+  viewport: "width=device-width, initial-scale=1, maximum-scale=5", // Accessibility for mobile
 };
 
 export default function RootLayout({ children }) {
