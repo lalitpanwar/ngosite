@@ -14,8 +14,12 @@ const roboto = Roboto({
 });
 export const metadata = {
   title: "Digital Duniyaa Foundation",
-  description: "Varanasi ke har bache ko mile shiksha aur har pariwar ko mile poshan.",
+  description: "Digital Duniyaa Foundation - Varanasi ke har bache ko mile shiksha aur har pariwar ko mile poshan.",
   viewport: "width=device-width, initial-scale=1, maximum-scale=5",
+  icons: {
+    icon: '/favicon.png', 
+    apple: '/apple-touch-icon.png',
+  },
   alternates: {
     canonical: "https://www.digitalduniyaa.org",
   },
