@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  /* --- NGO Brand Colors --- */
+  --color-primary: #009999;
+  --color-primary-dark: #007a7a;
+  --color-accent: #ff6600;
+  --color-donate: #dc2626;
+  
+  /* --- Social Colors --- */
+  --color-facebook: #1877F2;
+  --color-whatsapp: #25D366;
+
+  /* Roboto Mapping */
+  --font-roboto: var(--font-roboto);
+
+  /* Defaults */
+  --font-sans: var(--font-roboto), ui-sans-serif, system-ui;
+  --font-heading: var(--font-roboto), ui-sans-serif, system-ui;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    @apply bg-white text-slate-900 antialiased font-normal; /* Default 400 */
+  }
+  
+  h1, h2, .font-heading {
+    /* Roboto Black (900) Heading ke liye best hai */
+    font-weight: 900;
+    @apply tracking-tighter uppercase; 
+  }
+}
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}

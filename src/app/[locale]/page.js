@@ -3,19 +3,22 @@ import DonateCTA from "@/components/sections/DonateCTA";
 
 
 
-export default function Home() {
+export default async function Home({params}) {
   return (
     <>
+    
 <main className="min-h-screen">
+
 <Hero />
 <About />
 <Initiatives />
 <HowYouCanHelp />
 <DonateCTA />
 <OurMission />
-<ImageGallery />
+<ImageGallery isHomePage={true} />
 <MeetOurTeam />
 <FAQ />
+
 </main> 
 </>
   );

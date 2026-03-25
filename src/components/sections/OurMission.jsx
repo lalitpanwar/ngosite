@@ -1,107 +1,95 @@
 "use client";
-import { Container, SectionHeader, Button } from "..";
-import {
-  FaGraduationCap,
-  FaBowlFood,
-  FaHandHoldingHeart,
-  FaMicrochip,
+import { Container, SectionHeader, Button } from ".."; 
+import { useTranslations } from "next-intl";
+import { 
+  FaGraduationCap, 
+  FaLaptopCode, 
+  FaHandHoldingHeart, 
+  FaPersonDress, 
+  FaArrowRight 
 } from "react-icons/fa6";
 
-export default function OurMission() {
-  const steps = [
-    {
-      title: "Education",
-      subtitle: "The Light of Knowledge",
-      desc: "Connecting every child in Varanasi with quality schooling and digital literacy.",
+export default function Mission() {
+  const t = useTranslations('Mission');
+
+  const missionPoints = [
+
+    { 
+      key: "digital", 
+      icon: <FaLaptopCode />,
+      tag: "Digital",
+      // Modern Teal
+      color: "text-teal-500 group-hover:text-teal-600",
+      bgColor: "group-hover:bg-teal-50"
+    },
+        { 
+      key: "edu", 
       icon: <FaGraduationCap />,
-      color: "text-blue-600",
-      border: "border-blue-100",
-      shadow: "shadow-blue-500/5",
+      tag: "Education",
+      // Sky Blue
+      color: "text-blue-500 group-hover:text-blue-600",
+      bgColor: "group-hover:bg-blue-50"
     },
-    {
-      title: "Nutrition",
-      subtitle: "Nutritional Security",
-      desc: "Ensuring daily healthy meals through Project Annapurna for those in need.",
-      icon: <FaBowlFood />,
-      color: "text-rose-600",
-      border: "border-rose-100",
-      shadow: "shadow-rose-500/5",
+    { 
+      key: "women", 
+      icon: <FaPersonDress />, 
+      tag: "Empower",
+      // Vibrant Pink
+      color: "text-pink-500 group-hover:text-pink-600",
+      bgColor: "group-hover:bg-pink-50"
     },
-    {
-      title: "Skills",
-      subtitle: "New Identity",
-      desc: "Providing computer classes and vocational training for self-dependency.",
-      icon: <FaMicrochip />,
-      color: "text-amber-600",
-      border: "border-amber-100",
-      shadow: "shadow-amber-500/5",
-    },
-    {
-      title: "Support",
-      subtitle: "Empowered Society",
-      desc: "Delivering hygiene kits and basic medical assistance to every family.",
+    { 
+      key: "help", 
       icon: <FaHandHoldingHeart />,
-      color: "text-emerald-600",
-      border: "border-emerald-100",
-      shadow: "shadow-emerald-500/5",
-    },
+      tag: "Support",
+      // Nature Green
+      color: "text-green-500 group-hover:text-green-600",
+      bgColor: "group-hover:bg-green-50"
+    }
   ];
 
   return (
-    <section className="py-24 bg-white font-sans overflow-hidden">
+    <section className="py-20 md:py-28 bg-[#fcfcfd] font-sans overflow-hidden">
       <Container>
-        <SectionHeader
-          badge="Our Mission"
-          title="In Search of a"
-          italicPart="Better Tomorrow"
-        />
+        {/* Header Area */}
+        <div className="max-w-4xl mx-auto text-center mb-16 md:mb-24">
+          <SectionHeader 
+            badge={t('badge')} 
+            title={t('title')} 
+            italicPart={t('italicPart')} 
+          />
+         
+        </div>
 
-        <div className="relative mt-20">
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
-            {steps.map((item, i) => (
-              <div
-                key={i}
-                className="group flex flex-col items-center text-center"
-              >
-                <div className="relative mb-8">
-                  <div
-                    className={`h-24 w-24 rounded-[2.5rem] bg-white border-2 ${item.border} ${item.color} flex items-center justify-center text-4xl shadow-2xl ${item.shadow} transition-all duration-500 group-hover:-translate-y-3 group-hover:rotate-[10deg] relative z-10`}
-                  >
-                    {item.icon}
-                  </div>
-
-                  <div className="absolute -top-2 -right-2 h-8 w-8 rounded-full bg-slate-900 text-white text-[10px] font-black flex items-center justify-center border-4 border-white z-20">
-                    0{i + 1}
-                  </div>
-                </div>
-
-                <div className="space-y-3 px-4">
-                  <span
-                    className={`text-[10px] font-black uppercase tracking-[0.2em] ${item.color}`}
-                  >
-                    {item.subtitle}
-                  </span>
-                  <h3 className="text-xl font-heading font-black text-slate-900 tracking-tight">
-                    {item.title}
-                  </h3>
-                  <p className="text-slate-500 font-light text-sm leading-relaxed line-clamp-3 group-hover:text-slate-700 transition-colors">
-                    {item.desc}
-                  </p>
-                </div>
-
-                <div className="mt-8 h-1 w-12 rounded-full bg-slate-100 overflow-hidden">
-                  <div
-                    className={`h-full w-0 group-hover:w-full transition-all duration-500 ${item.color.replace("text-", "bg-")}`}
-                  />
-                </div>
+        {/* Grid Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {missionPoints.map((item) => (
+            <div 
+              key={item.key} 
+              className="group relative bg-white p-10 rounded-[2.5rem] border border-slate-100 text-center hover:shadow-[0_30px_60px_-15px_rgba(0,0,0,0.08)] transition-all duration-700 flex flex-col items-center"
+            >
+              {/* Icon Container with New Color Scheme */}
+              <div className={`w-20 h-20 rounded-full bg-slate-50 flex items-center justify-center text-4xl mb-8 transition-all duration-500 group-hover:shadow-lg group-hover:-translate-y-2 ${item.color} ${item.bgColor}`}>
+                {item.icon}
               </div>
-            ))}
-          </div>
+              
+              <h3 className="text-2xl font-black text-slate-900 mb-4 tracking-tight leading-tight">
+                {t(`points.${item.key}.title`)}
+              </h3>
+              
+              <p className="text-slate-500 text-sm md:text-base leading-relaxed font-light opacity-90">
+                {t(`points.${item.key}.desc`)}
+              </p>
+
+              <div className="mt-8 pt-6 border-t border-slate-50 w-full">
+                <span className={`text-[10px] font-black uppercase tracking-[0.2em] transition-colors duration-500 ${item.color.split(' ')[0]} opacity-40 group-hover:opacity-100`}>
+                  {item.tag}
+                </span>
+              </div>
+            </div>
+          ))}
         </div>
 
-        <div className="mt-20 text-center">
-          <Button text="Become a Change Maker" classes="px-12 py-5" />
-        </div>
       </Container>
     </section>
   );

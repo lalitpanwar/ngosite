@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  /* --- NGO Brand Colors --- */
+  --color-primary: #009999;
+  --color-primary-dark: #007a7a;
+  --color-accent: #ff6600;
+  --color-donate: #dc2626;
+  
+  /* --- Social Colors --- */
+  --color-facebook: #1877F2;
+  --color-whatsapp: #25D366;
+
+  /* Roboto Mapping */
+  --font-roboto: var(--font-roboto);
+
+  /* Defaults */
+  --font-sans: var(--font-roboto), ui-sans-serif, system-ui;
+  --font-heading: var(--font-roboto), ui-sans-serif, system-ui;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    @apply bg-white text-slate-900 antialiased font-normal; /* Default 400 */
+  }
+  
+  h1, h2, .font-heading {
+    /* Roboto Black (900) Heading ke liye best hai */
+    font-weight: 900;
+    @apply tracking-tighter uppercase; 
+  }
+/* --- HINDI GLOBAL FIX --- */
+  /* Jab HTML ka lang="hi" ho ya text Hindi detect ho */
+  [lang="hi"] h1, 
+  [lang="hi"] .font-heading,
+  h1:lang(hi) {
+    /* Hindi matraon ke liye spacing 0.8 se badha kar 1.2 kar di */
+    line-height: 1.2 !important; 
+    letter-spacing: -0.02em !important; /* Hindi mein zyada tight spacing words chipka deti hai */
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+  }
+
+  /* Specific fix for spans inside h1 when in Hindi */
+  [lang="hi"] h1 span {
+    /* display: block; */
+    line-height: 1.3 !important; 
+    /* Lines ke beech extra gap sirf Hindi ke liye */
+  }
+
+
+}
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}

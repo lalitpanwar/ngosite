@@ -1,0 +1,369 @@
+{
+  "Hero": {
+    "badge": "Digital Duniyaa Foundation",
+    "title": "Hunar se",
+    "italicPart": "Shikhar tak",
+    "description": "Through digital education and empowerment, it is our pledge to lead every youth and every family on the path of progress.",
+    "mission": "Giving digital power to every needy youth — this is our mission.",
+    "buttonJoin": "Join Our Mission",
+    "buttonDonate": "Support / Donate",
+    "pillars": {
+      "p1_val": "Digital Shiksha",
+      "p1_label": "Learn, Earn, Grow)",
+      "p2_val": "Shiksha Sahayata",
+      "p2_label": "Foundation for Tomorrow",
+      "p3_val": "Mahila Sashaktikaran",
+      "p3_label": "Skill is Identity",
+      "p4_val": "Seva & Sahyog",
+      "p4_label": "Always with You"
+    }
+  },
+  "About": {
+    "badge": "Our Beginning",
+    "titleLine1": "A Mission Born in",
+    "titleLine2": "Varanasi",
+    "descBold": "Digital Duniyaa Foundation",
+    "desc1": "is more than just an organization; it is a dedicated mission launched to bring tangible change to the lives of youth and children in need. Rooted in the heart of Varanasi, we are working tirelessly to uplift underprivileged sections of society through digital literacy and social awareness.",
+    "desc2": "Our goal is to foster self-reliance by equipping underprivileged youth with essential digital skills, supporting the complete education of children in need, and empowering women. Beyond skill-building, we provide critical resources, including books, stationery, educational materials, and other fundamental support to ensure no learner is left behind.",
+    "desc3": "We believe that with the right guidance and the right opportunities, every child and young adult has the power to transform their future. Driven by this conviction, we continue to strive toward a better society through the pillars of Education, Skills, and Collective Support.",
+    "impactCard": "Direct Impact & Contribution Transparency",
+    "stats": {
+      "p1_label": "Students Connected",
+      "p1_val": "100+",
+      "p2_label": "Families Supported",
+      "p2_val": "50+",
+      "p3_label": "Volunteers Joined",
+      "p3_val": "20+"
+    }
+  },
+  "Programs": {
+    "badge": "Our Primary Initiatives",
+    "title": "Service &",
+    "italicPart": "Empowerment",
+    "learnMore": "Explore Program",
+    "active": "Active Now",
+    "transparency": "Transparency",
+    "localImpact": "Local Impact",
+    "viewProject": "View Project",
+    "coreInitiative": "Core Initiative",
+    "location": "Varanasi",
+    "items": {
+      "digital_shiksha": {
+        "title": "Digital Shiksha Program",
+        "desc": "Empowering underprivileged youth with essential digital skills, from internet navigation to online earning opportunities. Our goal is to bridge the digital divide and foster self-reliance.",
+        "img_alt": "Live digital training sessions with students"
+      },
+      "shiksha_sahayata": {
+        "title": "Shiksha Sahayata Program",
+        "desc": "Ensuring quality education for every child by providing books, bags, and financial support for fees. Our mission is to prevent school dropouts caused by financial constraints.",
+        "img_alt": "Distribution of books and educational kits"
+      },
+      "mahila_sashaktikaran": {
+        "title": "Mahila Sashaktikaran Program",
+        "desc": "Dedicated to the digital and economic empowerment of women. We provide training on digital platforms to help women build their own unique identity and financial independence.",
+        "img_alt": "Women engaged in a digital training workshop"
+      },
+      "seva_sahyog": {
+        "title": "Seva & Sahyog Program",
+        "desc": "The heart of our grassroots efforts, providing immediate relief through food distribution, clothing drives, and essential resources to the most vulnerable members of society.",
+        "img_alt": "Organized food and ration distribution drives"
+      }
+    }
+  },
+  "DonateCTA": {
+    "headingMain": "Your Support Can Change",
+    "headingItalic": "A Future",
+    "description": "Your small contribution can become the education of a needy child and the hope for a youth's digital tomorrow.",
+    "trustLine": "100% Transparency – Directly to those in need",
+    "ctaButton": "Donate Now",
+    "smallLine": "Secure Payment – UPI / RAZORPAY"
+  },
+  "HowYouCanHelp": {
+    "badge": "Join Us",
+    "title": "Join Hands,",
+    "italicPart": "Make a Difference!",
+    "ways": {
+      "donate": {
+        "title": "Make a Donation",
+        "desc": "Your small contribution can change someone's education and future.",
+        "btn": "Donate Now"
+      },
+      "volunteer": {
+        "title": "Become a Volunteer",
+        "desc": "Work with us on the ground and help people directly.",
+        "btn": "Join Movement"
+      },
+      "spread": {
+        "title": "Be Our Voice",
+        "desc": "Connect with us on social media and share our stories.",
+        "btn": "Follow Us"
+      }
+    }
+  },
+  "Mission": {
+    "badge": "Our Mission",
+    "title": "Progress for ",
+    "italicPart": "Every Hand",
+    "subLine": "Empowering every individual to move forward with skill and support.",
+    "points": {
+      "digital": {
+        "title": "Digital India",
+        "desc": "Our priority is to make youth self-reliant by teaching them the latest technology and skills."
+      },
+      "edu": {
+        "title": "Right to Education",
+        "desc": "Our goal is to shape their tomorrow by connecting every child with books and knowledge."
+      },
+      "women": {
+        "title": "Empowered Women",
+        "desc": "We are constantly working to make women economically and socially strong."
+      },
+      "help": {
+        "title": "Continuous Service",
+        "desc": "Reaching out to the last person in society with essential aid and food is our human duty."
+      }
+    },
+    "ctaButton": "Be a Part of Change"
+  },
+  "Gallery": {
+    "badge": "Our Moments",
+    "title": "Image",
+    "italicPart": "Gallery",
+    "viewAll": "Explore Full Gallery"
+  },
+  "MeetOurTeam": {
+    "header": {
+      "title": "Our",
+      "italic": "Team",
+      "path": "Our Team"
+    },
+    "badge": "Our Team",
+    "title": "The Faces of",
+    "italicPart": "Positive Change",
+    "trusteeBadge": "The Visionary",
+    "directorBadge": "Executive Leadership",
+    "volunteerBadge": "Dedicated Members",
+    "trustee": {
+      "role": "Chief Patron / Guide",
+      "name": "Shri Amrish Chandra Maurya",
+      "vision": "My dream is to ensure education for every child in need and skills for every youth. Digital Duniyaa Foundation's purpose is not limited to literacy alone, but to empower youth as self-reliant citizens and better human beings. We believe that with the right guidance and opportunity, anyone can transform their life. Through education, digital skills, and social service, we strive to bring a positive change where every section of society moves forward together."
+    },
+    "directors": {
+      "mahima": {
+        "name": "Mahima Maurya",
+        "role": "Founder & CEO",
+        "vision": "I believe that education should not be limited to books, but should be a medium for every child and woman to become self-reliant. Through Digital Duniyaa Foundation, our goal is to digitally empower every daughter and woman so they can lead a life of dignity. We want every child to identify their dreams and find the right direction and opportunity to achieve them."
+      },
+      "devendra": {
+        "name": "Devendra Maurya",
+        "role": "Co-Founder & Director",
+        "vision": "I have always felt that a lack of right guidance and digital knowledge holds youth back. Digital Duniyaa Foundation was started with the vision that every youth should get digital skills, right education, and the opportunity to become self-reliant. Our goal is to make youth a strong foundation for their families and society. 'From Skill to Success' is what inspires us every day."
+      }
+    },
+    "volunteers": {
+      "title": "Meet Our Dedicated Volunteers",
+      "subLine": "The Backbone of Our Foundation",
+      "ptitle": "Meet Our",
+      "pitalicPart": "Volunteers",
+      "cta": "Join Our Mission",
+      "list": {
+        "anuj-yadav": {
+          "name": "Anuj Yadav",
+          "initial": "A"
+        },
+        "manjur-alam": {
+          "name": "Manjur Alam",
+          "initial": "M"
+        },
+        "shudhanshu": {
+          "name": "Shudhanshu",
+          "initial": "K"
+        },
+        "aryan-prakash": {
+          "name": "Aryan Prakash",
+          "initial": "A"
+        },
+        "deepak-maurya": {
+          "name": "Deepak Maurya",
+          "initial": "S"
+        },
+        "gautam-thakur": {
+          "name": "Gautam Thakur",
+          "initial": "V"
+        },
+        "gopal-sahu": {
+          "name": "Gopal Sahu",
+          "initial": "A"
+        },
+        "raj-maurya": {
+          "name": "Raj Maurya",
+          "initial": "K"
+        },
+        "sameer-maurya": {
+          "name": "Sameer Maurya",
+          "initial": "K"
+        },
+        "madhuri": {
+          "name": "Madhuri",
+          "initial": "V"
+        },
+        "rajnish-yadav": {
+          "name": "Rajnish Yadav",
+          "initial": "K"
+        },
+        "shiva": {
+          "name": "Shiva",
+          "initial": "K"
+        },
+        "arun-yadav": {
+          "name": "Arun Yadav",
+          "initial": "K"
+        },
+        "shiv-pawan": {
+          "name": "Shiv Pawan",
+          "initial": "K"
+        },
+        "sudha": {
+          "name": "Sudha",
+          "initial": "K"
+        },
+        "shiv-prakash-thakur": {
+          "name": "Shiv Prakash Thakur",
+          "initial": "K"
+        },
+        "anish-thakur": {
+          "name": "Anish Thakur",
+          "initial": "K"
+        },
+        "raju-rai": {
+          "name": "Raju Rai",
+          "initial": "K"
+        }
+      }
+    },
+    "ctaBadge": "Become a Volunteer",
+    "ctaTitle": "Ready to make a <italic>Real Difference?</italic>",
+    "ctaDesc": "Join our community of change-makers in Varanasi. Whether you have 2 hours a week or 20, your skills can change a child's life.",
+    "ctaBtn": "Join Our Team"
+  },
+  "FAQ": {
+    "badge": "Common Inquiries",
+    "title": "Frequently Asked",
+    "italicPart": "QUESTIONS",
+    "description": "Transformation begins with curiosity. If you have any questions about our mission in Varanasi or how you can get involved, we are here to help.",
+    "questions": {
+      "area": {
+        "q": "What is your primary area of operation in Varanasi?",
+        "a": "Our focus is deeply rooted in the ghats, lanes, and rural outskirts of Kashi. We aim to ensure that every child in this ancient city has access to quality education and future-ready career opportunities."
+      },
+      "outside": {
+        "q": "Can I contribute if I live outside of Varanasi?",
+        "a": "Absolutely! Whether you are in another city or across the globe, you can join our 'Varanasi Education Movement' through online mentoring, remote volunteering, or financial contributions."
+      },
+      "education": {
+        "q": "What kind of education do you provide to the children?",
+        "a": "Beyond standard school curriculum, we provide specialized training in digital literacy, vocational skills, and Varanasi's cultural heritage to prepare them for the modern world."
+      },
+      "transparency": {
+        "q": "How do you ensure transparency in donations?",
+        "a": "We maintain a 100% transparent policy. We publish detailed impact reports and welcome donors to visit our centers in person to see the impact firsthand."
+      }
+    }
+  },
+ 
+  "Footer": {
+    "description": "Digital Duniyaa Foundation is not just an organization, but a mission started to bring real change in the lives of youth and needy children.",
+    "newsletter": {
+      "title": "Newsletter",
+      "placeholder": "Your Email Address"
+    },
+    "quickLinks": {
+      "title": "Quick Links"
+    },
+    "reachUs": {
+      "title": "Reach Us",
+      "hours": "Mon - Sat (10am - 6pm)",
+      "inquiry": "Official Inquiry",
+      "address": "Sarnath Road, Gola Bazaar, Varanasi UP"
+    },
+    "social": {
+      "title": "Social Ecosystem"
+    },
+    "certification": {
+      "title": "NGO Certification",
+      "reg": "REG: 12345/NGO/GZB"
+    },
+    "copyright": "© {year} Digital Duniyaa Foundation",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "architect": "Digital Architect"
+  },
+
+  "AboutPage": {
+    "header": {
+      "title": "Who We",
+      "italic": "Are",
+      "path": "About Us"
+    },
+    "hero": {
+      "since": "Active Since 2024",
+      "tagline": "Empowering the next generation in the heart of Varanasi."
+    },
+    "intro": {
+      "badge": "About Us",
+      "heading": "A Mission Started <br /> <span class='text-primary italic'>From Varanasi</span>",
+      "story": "Digital Duniyaa Foundation is not just an organization, but a mission started to bring real change in the lives of youth and needy children.",
+      "description": "Starting from the soil of Varanasi, we are working to uplift the weaker sections of society through digital education and awareness. We believe that with right guidance, every child can change their life.",
+      "usp": {
+        "t1": "100% Transparency",
+        "t2": "Youth-Led",
+        "t3": "Grassroot Impact"
+      }
+    },
+    "mission": {
+      "title": "Our Mission",
+      "desc": "Our mission is to make underprivileged youth self-reliant by teaching digital skills, supporting children's education, and empowering women."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "desc": "To build a society where poverty never limits potential. We strive for a better world through education, skills, and continuous support."
+    },
+    "projects": {
+      "badge": "What We Do",
+      "title": "Our Strategic",
+      "italic": "Initiatives",
+      "description": "Focused projects designed to solve real-world challenges in Varanasi's most vulnerable communities.",
+      "list": {
+        "vidya": {
+          "title": "Project Vidya",
+          "desc": "Bridging the digital divide by providing computer literacy and academic support."
+        },
+        "annapurna": {
+          "title": "Project Annapurna",
+          "desc": "Providing essential nutritional kits and meal support to needy families."
+        },
+        "pathshala": {
+          "title": "Project Pathshala",
+          "desc": "Bringing education to Ghats through open-air classrooms and libraries."
+        },
+        "shuddha": {
+          "title": "Project Shuddha",
+          "desc": "Promoting clean water and sanitation awareness in rural clusters."
+        },
+        "muskan": {
+          "title": "Project Muskan",
+          "desc": "A dedicated initiative for child healthcare and mental well-being."
+        },
+        "pankh": {
+          "title": "Project Pankh",
+          "desc": "Empowering youth with vocational skills and technical training."
+        }
+      }
+    },
+    "cta": {
+      "heading": "Let's Write <br /> <span class='text-primary italic font-serif'>History Together</span>",
+      "desc": "We are always on the lookout for dedicated volunteers and partners who share our passion for Varanasi.",
+      "btn": "Join Our Movement"
+    }
+  }
+}
