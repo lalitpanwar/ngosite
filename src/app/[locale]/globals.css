@@ -28,7 +28,7 @@
   h1, h2, .font-heading {
     /* Roboto Black (900) Heading ke liye best hai */
     font-weight: 900;
-    @apply tracking-tighter uppercase; 
+    @apply uppercase; 
   }
 /* --- HINDI GLOBAL FIX --- */
   /* Jab HTML ka lang="hi" ho ya text Hindi detect ho */
