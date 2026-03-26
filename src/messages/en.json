@@ -238,6 +238,18 @@
         "raju-rai": {
           "name": "Raju Rai",
           "initial": "K"
+        },
+        "neeraj-shukla": {
+          "name": "Neeraj Shukla",
+          "initial": "K"
+        },
+        "priya-patel": {
+          "name": "Priya Patel",
+          "initial": "K"
+        },
+        "vishnu-sahani": {
+          "name": "Vishnu Sahani",
+          "initial": "K"
         }
       }
     },
@@ -270,7 +282,6 @@
       }
     }
   },
- 
   "Footer": {
     "description": "Digital Duniyaa Foundation is not just an organization, but a mission started to bring real change in the lives of youth and needy children.",
     "newsletter": {
@@ -298,7 +309,6 @@
     "terms": "Terms",
     "architect": "Digital Architect"
   },
-
   "AboutPage": {
     "header": {
       "title": "Who We",

@@ -175,7 +175,7 @@
           "initial": "M"
         },
         "shudhanshu": {
-          "name": "शुधांशु",
+          "name": "सुधांशु",
           "initial": "K"
         },
         "aryan-prakash": {
@@ -237,6 +237,18 @@
         "raju-rai": {
           "name": "राजू राय",
           "initial": "K"
+        },
+        "neeraj-shukla": {
+          "name": "नीरज शुक्ला",
+          "initial": "K"
+        },
+        "priya-patel": {
+          "name": "प्रिया पटेल",
+          "initial": "K"
+        },
+        "vishnu-sahani": {
+          "name": "विष्णु साहनी",
+          "initial": "K"
         }
       }
     },
@@ -296,7 +308,6 @@
     "terms": "नियम एवं शर्तें",
     "architect": "डिजिटल आर्किटेक्ट"
   },
-
   "AboutPage": {
     "header": {
       "title": "हम कौन",
