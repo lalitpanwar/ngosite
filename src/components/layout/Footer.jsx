@@ -13,26 +13,15 @@ import {
 } from "react-icons/fa6";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
+import { SITE_CONFIG } from "@/constants";
+import { menu } from "@/lib/data/Menu";
 
 export default function Footer() {
   const t = useTranslations('Footer');
-
-  const social = [
-    {icon: <FaFacebookF />, color:"hover:bg-blue-600", link: "https://facebook.com/digitalduniyaa"},
-    {icon: <FaInstagram />, color:"hover:bg-gradient-to-tr from-yellow-500 via-red-500 to-purple-500", link: "https://instagram.com/digitalduniyaa"},
-    {icon: <FaYoutube />, color:"hover:bg-red-600", link: "https://youtube.com/@richdadcoder"},
-    {icon: <FaWhatsapp />, color:"hover:bg-green-500", link: "https://wa.me/919876543210"},
-    {icon: <FaXTwitter />, color:"hover:bg-slate-800", link: "#"},
-  ];
-
+ const tn = useTranslations('Navigation');
   // Manual Links for better control
-  const quickLinks = [
-    { name: "About Us", href: "/about" },
-    { name: "Programs", href: "/programs" },
-    { name: "Volunteers", href: "/volunteers" },
-    { name: "Contact", href: "/contact" },
-  ];
-
+  const navLinks = menu || [];
+const {contact, socials, reg} = SITE_CONFIG;
   return (
     <footer className="bg-slate-950 text-slate-400 py-24 font-sans border-t border-white/5 relative overflow-hidden">
       {/* Premium Decorative Glow */}
@@ -76,11 +65,11 @@ export default function Footer() {
           <nav className="space-y-8 lg:pl-10">
             <h6 className="font-heading font-bold text-white/30 uppercase tracking-[0.3em] text-[10px]">{t('quickLinks.title')}</h6>
             <ul className="flex flex-col gap-4 text-[13px] font-bold tracking-tight">
-              {quickLinks.map((link) => (
+              {navLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="hover:text-primary transition-all duration-300 flex items-center group uppercase tracking-widest text-[11px]">
+                  <Link href={link.href} title={tn(link.name)} className="hover:text-primary transition-all duration-300 flex items-center group uppercase tracking-widest text-[11px]">
                     <span className="h-1 w-1 bg-primary rounded-full mr-0 opacity-0 group-hover:mr-3 group-hover:opacity-100 transition-all duration-300"></span>
-                    {link.name}
+                    {tn(link.name)}
                   </Link>
                 </li>
               ))}
@@ -96,7 +85,7 @@ export default function Footer() {
                    <FaPhone size={14} /> 
                 </div>
                 <div className="border-l border-white/5 pl-4">
-                  <a href="tel:+919876543210" className="text-[13px] text-slate-400 hover:text-primary transition-all block font-bold tracking-wider">+91 98765 43210</a>
+                  <a href={contact?.phone[0]?.link} className="text-[13px] text-slate-400 hover:text-primary transition-all block font-bold tracking-wider">{contact?.phone[0]?.no}</a>
                   <span className="text-[9px] text-slate-600 uppercase tracking-widest font-bold">{t('reachUs.hours')}</span>
                 </div>
               </div>
@@ -106,7 +95,7 @@ export default function Footer() {
                    <FaEnvelope size={14} /> 
                 </div>
                 <div className="border-l border-white/5 pl-4">
-                  <a href="mailto:hello@digitalduniyaa.org" className="text-[13px] text-slate-400 hover:text-primary transition-all block font-bold">hello@digitalduniyaa.org</a>
+                  <a href="{contact?.email[0]?.link}" className="text-[13px] text-slate-400 hover:text-primary transition-all block font-bold">{contact?.email[0]?.emailid}</a>
                   <span className="text-[9px] text-slate-600 uppercase tracking-widest font-bold">{t('reachUs.inquiry')}</span>
                 </div>
               </div>
@@ -116,8 +105,8 @@ export default function Footer() {
                    <FaLocationDot size={16} /> 
                 </div>
                 <div className="border-l border-white/5 pl-4">
-                  <p className="text-[12px] leading-relaxed text-slate-500 font-light italic">
-                    {t('reachUs.address')}
+                  <p className="text-[12px] leading-relaxed text-slate-500 font-medium italic">
+                   {contact?.address[0]?.full}
                   </p>
                 </div>
               </div>
@@ -129,7 +118,7 @@ export default function Footer() {
             <div className="space-y-6">
               <h6 className="font-heading font-bold text-white/30 uppercase tracking-[0.3em] text-[10px]">{t('social.title')}</h6>
               <div className="flex flex-wrap gap-3">
-                {social.map((item, i) => (
+                {socials.map((item, i) => (
                   <Link key={i} href={item.link} className={`h-11 w-11 flex items-center justify-center rounded-full bg-white/5 text-white transition-all duration-500 ${item.color} hover:shadow-[0_10px_20px_-5px_rgba(0,0,0,0.5)] hover:-translate-y-1.5`}>
                     <span className="text-lg">{item.icon}</span>
                   </Link>
@@ -140,7 +129,7 @@ export default function Footer() {
             <div className="p-6 rounded-[2rem] bg-gradient-to-br from-white/[0.03] to-transparent border border-white/5 backdrop-blur-md relative group overflow-hidden">
                <div className="absolute top-0 right-0 w-20 h-20 bg-primary/10 blur-2xl group-hover:bg-primary/20 transition-all" />
                <span className="text-[9px] font-black text-primary block uppercase tracking-[0.3em] mb-2">{t('certification.title')}</span>
-               <span className="text-xs font-mono font-bold text-slate-200 tracking-wider">{t('certification.reg')}</span>
+               <span className="text-xs font-mono font-bold text-slate-200 tracking-wider">{reg}</span>
             </div>
           </nav>
         </div>

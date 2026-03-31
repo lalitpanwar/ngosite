@@ -1,4 +1,10 @@
 {
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "team": "Team",
+    "contact": "Contact"
+  },
   "Hero": {
     "badge": "Digital Duniyaa Foundation",
     "title": "Hunar se",
