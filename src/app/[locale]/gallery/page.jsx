@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import { Container, PageHeader, SectionHeader } from "@/components";
+import { Container, ImageGallery, PageHeader} from "@/components";
 import Image from "next/image";
 
 export default function FullGalleryPage() {
@@ -27,14 +27,14 @@ export default function FullGalleryPage() {
         path="Gallery" 
         bgImage="/images/vns-ghat-dark.jpg"  
       />
-
+<ImageGallery isHomePage= {false}/>
       <section className="py-24 bg-[#fafafa]">
         <Container>
 
 
           {/* 3. MASONRY GRID (Using your exact styles) */}
           <div className="columns-2 sm:columns-3 lg:columns-6 gap-2 space-y-2">
-            {images.map((src, i) => (
+            {images.map((img, i) => (
               <div
                 key={i}
                 onClick={() => setIndex(i)}
@@ -43,8 +43,8 @@ export default function FullGalleryPage() {
                 {/* Dynamic Aspect Ratio (Matching your Home logic) */}
                 <div className={`relative overflow-hidden ${i % 3 === 0 ? 'aspect-[4/5]' : 'aspect-square'}`}>
                   <Image
-                    src={src}
-                    alt={`Gallery image ${i}`}
+src={img.src || img} 
+      alt={`Gallery image ${i}`}
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
                     className="

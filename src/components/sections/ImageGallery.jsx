@@ -15,7 +15,7 @@ export default function ImageGallery({ isHomePage = true }) {
   const [index, setIndex] = useState(-1);
 
   // Filters List
-  const filters = ["All", "Team", "Training",];
+  const filters = ["All", "Digital Training",  "Education Support", "Ground Activities", "Women Empowerment"];
 
   useEffect(() => {
     fetch("/api/gallery")
@@ -39,12 +39,12 @@ export default function ImageGallery({ isHomePage = true }) {
   return (
     <section className={`py-24 font-sans ${isHomePage ? 'bg-[#fafafa]' : 'bg-white'}`}>
       <Container>
-        <SectionHeader
+       {isHomePage && <SectionHeader
           badge={t('badge')}
           title={t('title')}
           italicPart={t('italicPart')}
         />
-
+}
         {/* 🎛️ MODERN PILL FILTERS */}
         <div className="flex flex-wrap justify-center gap-3 mt-12 mb-10">
           {filters.map((cat) => (
